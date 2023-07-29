@@ -4,5 +4,7 @@ from user import User
 
 class Student(User):
     
-    def learn(self):
+    def learn(self, knowledge):
+        self.knowledge = knowledge
+        knowledge = "New information"
         pass
